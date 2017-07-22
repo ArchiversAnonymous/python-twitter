@@ -7,7 +7,7 @@ import re
 from tempfile import NamedTemporaryFile
 
 import requests
-from twitter import TwitterError
+from .error import TwitterError
 
 
 TLDS = [
